@@ -1,0 +1,26 @@
+<suite name="Suite">
+<test thread-count="5" name="Test">
+<groups>
+<run>
+<include name="regression"/>
+<include name="sanity"/>
+</run>
+</groups>
+<classes>
+<class name="com.testng.PriorityTest">
+</class>
+</classes>
+</test> <!-- Test -->
+
+<test thread-count="5" name="Test1">
+<classes>
+<class name="com.testng.PriorityTest">
+<groups>
+<run>
+<include name="regression"/>
+</run>
+</groups>
+</class>
+</classes>
+</test> <!-- Test -->
+</suite> <!-- Suite -->

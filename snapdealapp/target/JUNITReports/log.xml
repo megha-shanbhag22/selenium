@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="16.949" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="create account functionality" name="validate create account form" time="16.333">
+<system-out><![CDATA[
+Given user should be on homepage............................................passed
+When user should click create account link..................................passed
+And user enters full keyword,redmail1,pass1,conpass1,altmail1,mobno1........passed
+And click on create my account button.......................................passed
+Then The message box should display.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
